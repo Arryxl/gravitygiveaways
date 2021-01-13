@@ -126,7 +126,7 @@ h1
 
 .gifGravity
 {
-    width: 500px;
+    width: 800px;
     justify-content: center;
     padding: 10px;
 }
@@ -186,7 +186,7 @@ h1
 
 .imgDiscord
 {
-    width: 550px;
+    width: 800px;
     padding: 35px;
 }
 p
@@ -284,4 +284,3 @@ footer
     justify-content: space-around;
     align-items: center;
 }
-
