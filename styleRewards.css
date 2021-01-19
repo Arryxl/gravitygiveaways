@@ -1,0 +1,252 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'Yusei Magic', Arial, sans-serif;
+    background-color:rgb(29, 0, 59);
+}
+
+/* This is Header */
+
+header
+{
+    background-color: rgb(255, 255, 0);
+    display: inline-block;
+    box-shadow: 0 8px 10px rgba(0, 0, 0,);
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.LogoHeader
+{
+    width: 75px;
+    height: 75px;
+    float: left;
+    padding: 10px;
+}
+
+.menu
+{
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav
+{
+    float: right;
+}
+
+nav ul li
+{
+    list-style: none;
+    margin-left: 30px;
+    margin: 15px;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+}
+
+.header-nav-item a
+{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.header-nav-item a:hover::before
+{
+    width: 100%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.header-nav-item a:hover
+{
+    color: rgb(0, 166, 255);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.header-nav-item a:active
+{
+    color:rgb(0, 255, 0);
+}
+
+.header-nav-item a::after
+{
+    content: '';
+}
+
+nav ul li a::before
+{
+    display: block;
+    content: '';
+    width: 0%;
+    background-color: rgb(0, 255, 0);
+    height: 7.5px;
+    top: 0;
+    position: absolute;
+}
+
+/* This is the MAIN */
+
+main
+{
+    color: white;
+}
+
+p
+{
+    padding: 20px;
+    font-size: 1.7rem;
+}
+ 
+h1
+{
+    font-size: 3.2rem;
+    padding: 20px;
+}
+
+img
+{
+    width: 200px;
+}
+
+.event
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    width: auto;
+    text-align: center;
+    border-color: white 3px;
+}
+.rules
+{
+    display: inline-block;
+    padding: 10px;
+}
+
+/* This is the ASIDE */
+
+aside
+{
+    display: flex;
+    justify-content: center;
+}
+
+aside section h1
+{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.ulnav
+{
+    padding: 30px;
+}
+
+.button 
+{
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(60, 0, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 
+{
+    background-color: rgb(29, 0, 59); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #0191ff;
+}
+
+.button2:hover 
+{
+    background-color: #0191ff;
+    color: rgb(255, 255, 255);
+}
+
+/* This is the FOOTER */
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h1redes
+{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RedesSociales
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LogoFooter
+{
+    width: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.versiones
+{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.versiones:hover
+{
+    color: rgb(0, 132, 255);
+}
+
+.versiones:active
+{
+    color:rgb(255, 0, 149);
+}
+
+.pcreator
+{
+    font-size: 1.2rem;
+}

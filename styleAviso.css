@@ -1,0 +1,117 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'Yusei Magic', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h1
+{
+    font-size: 3.6rem;
+}
+
+.aviso
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+
+.p
+{
+    font-size: 2rem;
+}
+
+.imgGravity
+{
+    width: 100%;
+    height: 100%;
+}
+.button1
+{
+    padding: 20px;
+}
+
+.button 
+{
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(60, 0, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 
+{
+    background-color: rgb(29, 0, 59); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #01ff2b;
+}
+
+.button2:hover 
+{
+    background-color: #0191ff;
+    color: rgb(255, 255, 255);
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h1redes
+{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RedesSociales
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LogoFooter
+{
+    width: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
